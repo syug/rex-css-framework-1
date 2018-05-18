@@ -1,5 +1,5 @@
 
-<p align="center"><img src="https://github.com/rakuten-frontend/rex-css-framework/blob/feature/new-readme/src/assets/img/github-logo.png?raw=true" width="250px" ></img></p>
+<p align="center"><img src="https://github.com/rakuten-frontend/rex-css-framework/blob/master/dev/assets/img/github-logo.png?raw=true" width="250px" ></img></p>
 <p align="center">
   <a href="https://github.com/rakuten-frontend/rex-css-framework/blob/feature/new-readme/LICENSE">
     <img src="https://img.shields.io/packagist/l/doctrine/orm.svg?style=flat-square" />
