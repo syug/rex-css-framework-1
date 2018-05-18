@@ -44,15 +44,15 @@ const rules = [
 module.exports = {
 
   entry: {
-    'rex-default': './src/style/themes/theme-default',
-    'rex-blue': './src/style/themes/theme-blue',
-    'rex-red': './src/style/themes/theme-red',
-    'rex-green': './src/style/themes/theme-green',
-    'rex-yellow': './src/style/themes/theme-yellow',
-    'rex-purple': './src/style/themes/theme-purple',
-    'rex-pink': './src/style/themes/theme-pink',
-    'rex-blue': './src/style/themes/theme-blue',
-    'rex-dark-blue': './src/style/themes/theme-dark-blue'
+    'rex-default': './src/themes/theme-default',
+    'rex-blue': './src/themes/theme-blue',
+    'rex-red': './src/themes/theme-red',
+    'rex-green': './src/themes/theme-green',
+    'rex-yellow': './src/themes/theme-yellow',
+    'rex-purple': './src/themes/theme-purple',
+    'rex-pink': './src/themes/theme-pink',
+    'rex-blue': './src/themes/theme-blue',
+    'rex-dark-blue': './src/themes/theme-dark-blue'
   },
   cache: true,
 
