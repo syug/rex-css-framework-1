@@ -11,8 +11,8 @@
     "start": "NODE_ENV=development ENV_TYPE=development webpack-dev-server --content-base dev --port 8081 --host 0.0.0.0 --public localhost:8081 --config webpack.config.dev.js",
     "server": "node server.js",
     "build": "webpack --config webpack.config.prod.js --color -p --progress",
-    "postbuild": "cp -r ./src/style/fonts ./build/",
-    "build-font": "svgo ./icons/ && iconfont -f icons --scss-dest ./src/style/core/ --fonts-dest ./src/style/fonts/ --scss-name _glyphicons --scss-fonts-url ../fonts -fn rex-icon",
+    "postbuild": "cp -r ./src/fonts ./build/",
+    "build-font": "svgo ./icons/ && iconfont -f icons --scss-dest ./src/core/ --fonts-dest ./src/fonts/ --scss-name _glyphicons --scss-fonts-url ../fonts -fn rex-icon",
     "build-font-preview": "svgo ./icons/ && iconfont -f icons -sn rex --html true -fn rex-icon"
   },
   "author": "Josh Worley, Claudio Moya, Alexander King, Linmic, Shugo Sasito, Akinori Noguchi",
