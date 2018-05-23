@@ -116,7 +116,7 @@
       left: 16px;
     }
   }
-  &.icon.loading {
+  &.loading {
     width: 144px;
     padding: 19px 0px;
     position: relative;
@@ -125,11 +125,12 @@
       content: $_32-loading-lg-l;
       position: absolute;
       font-family: rex-icon;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+      top: 5%;
+      left: 0;
+      right: 0;
       font-size: 24px;
       z-index: 2;
+      animation: spin .6s linear infinite;
     }
   }
   &.icon {
