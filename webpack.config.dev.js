@@ -4,6 +4,10 @@ const merge = require('webpack-merge');
 const common = require('./webpack.config.common');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
+const entry = {
+  'rex-default': './src/themes/theme-default',
+};
+
 const plugins = [
   new webpack.HotModuleReplacementPlugin(),
   new HtmlWebpackPlugin({
@@ -27,6 +31,7 @@ common.devServer = {
 };
 
 module.exports = merge(common, {
+  entry,
   plugins,
   module: {
     rules,

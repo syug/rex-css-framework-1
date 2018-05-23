@@ -43,17 +43,6 @@ const rules = [
 
 module.exports = {
 
-  entry: {
-    'rex-default': './src/themes/theme-default',
-    'rex-blue': './src/themes/theme-blue',
-    'rex-red': './src/themes/theme-red',
-    'rex-green': './src/themes/theme-green',
-    'rex-yellow': './src/themes/theme-yellow',
-    'rex-purple': './src/themes/theme-purple',
-    'rex-pink': './src/themes/theme-pink',
-    'rex-blue': './src/themes/theme-blue',
-    'rex-dark-blue': './src/themes/theme-dark-blue'
-  },
   cache: true,
 
   output: {
